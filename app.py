@@ -6,7 +6,7 @@ from langchain.vectorstores import Pinecone
 from langchain.chains import RetrievalQA
 from langchain.llms import OpenAI
 from PIL import Image
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 load_dotenv()  # take environment variables from .env.
 
