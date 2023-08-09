@@ -8,7 +8,7 @@ from langchain.llms import OpenAI
 from PIL import Image
 #from dotenv import load_dotenv
 
-load_dotenv()  # take environment variables from .env.
+#load_dotenv()  # take environment variables from .env.
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
 pinecone_api_key = os.getenv("PINECONE_API_KEY")
