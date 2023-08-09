@@ -19,7 +19,7 @@ pinecone.init(
 )
 
 embeddings = OpenAIEmbeddings()
-index_name = "ind"
+index_name = "cod"
 docsearch = Pinecone.from_existing_index(index_name, embeddings)
 
 llm = OpenAI(model_kwargs={"api_key": openai_api_key})
