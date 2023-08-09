@@ -53,7 +53,8 @@ if prompt := st.chat_input("What is up?"):
 
         model=st.session_state["openai_model"]
         stream=True,
-        full_response = qa_with_sources({"query": prompt})
+        response = qa_with_sources({"query": prompt})
+        full_response += response["result"] + " "
         message_placeholder.markdown(full_response["result"])
         
     st.session_state.messages.append({"role": "assistant", "content": full_response["result"]})
