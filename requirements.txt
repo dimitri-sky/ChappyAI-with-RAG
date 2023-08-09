@@ -4,4 +4,3 @@ openai
 tiktoken
 nest_asyncio
 streamlit
-dotenv
