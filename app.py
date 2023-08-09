@@ -42,6 +42,8 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
+last_two_user_messages = ' '.join([message['content'] for message in st.session_state.messages[-2:] if message['role'] == 'user'])
+
 if prompt := st.chat_input("What is up?"):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
@@ -53,8 +55,9 @@ if prompt := st.chat_input("What is up?"):
 
         model=st.session_state["openai_model"]
         stream=True,
-        response = qa_with_sources({"query": prompt})
-        full_response += response["result"] + " "
-        message_placeholder.markdown(full_response["result"])
+        # Include the last two user messages with the prompt
+        response = qa_with_sources({"query": last_two_user_messages + ' ' + prompt})
+        full_response = response["result"]
+        message_placeholder.markdown(full_response)
         
-    st.session_state.messages.append({"role": "assistant", "content": full_response["result"]})
+    st.session_state.messages.append({"role": "assistant", "content": full_response})
