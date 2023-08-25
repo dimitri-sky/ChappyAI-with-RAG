@@ -4,7 +4,7 @@ ChappyAI is an intelligent question-and-answer system leveraging state-of-the-ar
 
 <div align="center">
   <h2>Talk with Chappy AI: https://chappyai.streamlit.app/</h2>
-  <h4> (WARNING: May be down due to Inactivity) </h4>
+  <h4> (WARNING: May be down due to Free Tier Inactivity) </h4>
   <img src="chappyai.png" alt="Aisha Logo" width="300" height="300">
 </div>
 
