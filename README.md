@@ -3,7 +3,8 @@
 ChappyAI is an intelligent question-and-answer system leveraging state-of-the-art language models and vector search. It utilizes OpenAI's embeddings and Pinecone's vector search to deliver fast and accurate answers.
 
 <div align="center">
-  <h2>Talk with Chappy AI: https://chappyai.streamlit.app/ (WARNING: May be down due to Inactivity)
+  <h2>Talk with Chappy AI: https://chappyai.streamlit.app/</h2>
+  <h4> (WARNING: May be down due to Inactivity) </h4>
   <img src="chappyai.png" alt="Aisha Logo" width="300" height="300">
 </div>
 
