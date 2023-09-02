@@ -1,4 +1,4 @@
-# ChappyAI
+# ChappyAI (GPT, Pinecone, Web Scraping)
 
 ChappyAI is an intelligent question-and-answer system leveraging state-of-the-art language models and vector search. It utilizes OpenAI's embeddings and Pinecone's vector search to deliver fast and accurate answers.
 
