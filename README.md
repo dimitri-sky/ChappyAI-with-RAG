@@ -35,6 +35,14 @@ ChappyAI is designed to provide efficient retrieval-based question answering by 
   3. Machine Learning Optimized Retrieval: Utilize machine learning algorithms to continually learn and improve from past retrieval successes and failures, refining the retrieval process over time.
   4. Context-Aware Retrieval: Develop systems that take into account the broader context of the conversation or document, ensuring that the retrieved information is not just relevant to the query but also to the overall context.
   5. Personalized Retrieval: Tailor the retrieval process to individual users based on their past interactions, preferences, or the specific task at hand, making the results more personalized and relevant.
+- Dynamic Knowledge Updating: Integrate systems for real-time updating of the knowledge base to keep information current.
+- Contextual Understanding: Improve context understanding to enhance the relevance of retrieved documents to the query.
+- Diverse Data Sources: Expand and diversify the range of data sources to enhance the model's coverage and accuracy.
+- Efficient Indexing: Optimize indexing strategies for faster and more efficient retrieval of information.
+- Better Re-ranking Mechanisms: Implement sophisticated re-ranking algorithms to ensure the best documents are chosen.
+- Cross-Lingual Capabilities: Enhance cross-lingual retrieval to support a wider range of languages and dialects.
+- User Feedback Loop: Integrate a system for user feedback to continually refine and improve retrieval relevance.
+- Robustness to Noise: Improve the model's robustness to noisy or irrelevant data in the retrieval process.
 
 ## Requirements
 
