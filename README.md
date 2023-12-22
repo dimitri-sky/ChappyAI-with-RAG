@@ -1,7 +1,8 @@
  <div align="center">
   <h1>
-   ChappyAI (GPT, Pinecone, Web Scraping)
-   </h1>
+   ChappyAI (GPT, Pinecone, Web Scraping)</h1>br
+   Simple RAG (Can be improved, see below how)
+ </h1>
  </div>
 
 ChappyAI is an intelligent question-and-answer system leveraging state-of-the-art language models and vector search. It utilizes OpenAI's embeddings and Pinecone's vector search to deliver fast and accurate answers.
@@ -15,6 +16,7 @@ ChappyAI is an intelligent question-and-answer system leveraging state-of-the-ar
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [HowtoImprove](#HowToImprove)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -24,6 +26,15 @@ ChappyAI is an intelligent question-and-answer system leveraging state-of-the-ar
 ## Introduction
 
 ChappyAI is designed to provide efficient retrieval-based question answering by integrating powerful language models with a robust indexing system. The project is modular and built on well-structured components.
+
+## HowToImprove
+
+- Enhanced Retrieval Algorithms:
+  1. Advanced Query Understanding: Implement Natural Language Processing (NLP) techniques to better understand the intent and nuances of the user's query, allowing for more accurate and relevant retrieval.
+  2. Semantic Search: Move beyond keyword-based retrieval to semantic search, which understands the meaning behind the query and retrieves documents based on conceptual relevance, not just keyword matching.
+  3. Machine Learning Optimized Retrieval: Utilize machine learning algorithms to continually learn and improve from past retrieval successes and failures, refining the retrieval process over time.
+  4. Context-Aware Retrieval: Develop systems that take into account the broader context of the conversation or document, ensuring that the retrieved information is not just relevant to the query but also to the overall context.
+  5. Personalized Retrieval: Tailor the retrieval process to individual users based on their past interactions, preferences, or the specific task at hand, making the results more personalized and relevant.
 
 ## Requirements
 
