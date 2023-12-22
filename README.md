@@ -1,6 +1,6 @@
  <div align="center">
   <h1>
-   ChappyAI (GPT, Pinecone, Web Scraping)</h1>br
+   ChappyAI (GPT, Pinecone, Web Scraping)</br>
    Simple RAG (Can be improved, see below how)
  </h1>
  </div>
